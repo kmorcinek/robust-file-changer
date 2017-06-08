@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobustFileChanger", "KMorcinek.RobustFileChanger\RobustFileChanger.csproj", "{A51255D7-FD06-4BE1-9DA4-0F70416FD4C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMorcinek.RobustFileChanger.Implementations", "KMorcinek.RobustFileChanger.Implementations\KMorcinek.RobustFileChanger.Implementations.csproj", "{CC19EEFC-BA57-4A4D-90D7-DDA43829D7DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A51255D7-FD06-4BE1-9DA4-0F70416FD4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51255D7-FD06-4BE1-9DA4-0F70416FD4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51255D7-FD06-4BE1-9DA4-0F70416FD4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51255D7-FD06-4BE1-9DA4-0F70416FD4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC19EEFC-BA57-4A4D-90D7-DDA43829D7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC19EEFC-BA57-4A4D-90D7-DDA43829D7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC19EEFC-BA57-4A4D-90D7-DDA43829D7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC19EEFC-BA57-4A4D-90D7-DDA43829D7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
