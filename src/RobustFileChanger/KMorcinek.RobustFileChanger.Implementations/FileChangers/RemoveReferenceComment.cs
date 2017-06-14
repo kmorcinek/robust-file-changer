@@ -26,5 +26,7 @@ namespace KMorcinek.RobustFileChanger.Implementations.FileChangers
 
             return lines;
         }
+
+        public override string SearchPattern => "*.ts";
     }
 }

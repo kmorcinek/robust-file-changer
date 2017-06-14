@@ -25,5 +25,7 @@ namespace KMorcinek.RobustFileChanger.Implementations.FileChangers
 
             return lines.Take(lines.Length - 1);
         }
+
+        public override string SearchPattern => "*.ts";
     }
 }

@@ -15,5 +15,7 @@ namespace KMorcinek.RobustFileChanger.Implementations.FileChangers
         {
             return new[] { @"import * as _ from ""underscore""" }.Concat(lines);
         }
+
+        public override string SearchPattern => "*.ts";
     }
 }

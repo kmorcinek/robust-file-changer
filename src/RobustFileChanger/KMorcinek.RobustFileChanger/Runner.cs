@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using KMorcinek.RobustFileChanger.FileChangers;
 
 namespace KMorcinek.RobustFileChanger
@@ -11,7 +12,7 @@ namespace KMorcinek.RobustFileChanger
         {
             // Then in "clean" mode you only copy files to folder ../TryChanges (recreated)
 
-            IEnumerable<string> files = FilesRetriever.GetFiles(basePath);
+            IEnumerable<string> files = FilesRetriever.GetFiles(basePath, fileChanger.SearchPattern).ToList();
 
             foreach (var pathToFile in files)
             {

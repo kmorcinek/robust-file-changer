@@ -23,5 +23,6 @@ namespace KMorcinek.RobustFileChanger.FileChangers
 
         public abstract bool IsMatch(string[] lines);
         public abstract IEnumerable<string> Transform(string[] lines);
+        public abstract string SearchPattern { get; }
     }
 }

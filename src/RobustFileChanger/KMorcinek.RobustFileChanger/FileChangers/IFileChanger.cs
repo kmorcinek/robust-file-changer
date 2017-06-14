@@ -8,5 +8,6 @@ namespace KMorcinek.RobustFileChanger.FileChangers
         string Transform(string content);
         bool IsMatch(string[] lines);
         IEnumerable<string> Transform(string[] lines);
+        string SearchPattern { get; }
     }
 }
