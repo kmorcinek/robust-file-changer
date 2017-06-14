@@ -63,10 +63,16 @@
     <Compile Include="FileChangers\AddUnderscoreImport.cs" />
     <Compile Include="FileChangers\RemoveModuleFromTs.cs" />
     <Compile Include="FileChangers\RemoveReferenceComment.cs" />
+    <Compile Include="FileChangers\RewritePath\RewritePathRunner.cs" />
+    <Compile Include="FileChangers\RewritePath\RewritePathToNugetsForSelenium.cs" />
+    <Compile Include="FileChangers\RewritePath\RewritePathToNugetsForWebApp.cs" />
+    <Compile Include="FileChangers\RewritePath\RewritePathToNugetsForWinClients.cs" />
+    <Compile Include="FileChangers\RewritePath\RewritePathToNugetsForTests.cs" />
     <Compile Include="FileChangers\Tests\RemoveModuleFromTsTests.cs" />
     <Compile Include="FileChangers\Tests\RemoveReferenceCommentTests.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FileChangers\RewritePath\RewritePathToNugets.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
