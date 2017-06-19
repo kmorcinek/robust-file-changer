@@ -8,7 +8,7 @@ namespace KMorcinek.RobustFileChanger.Implementations
         {
             Runner.Run(
                 @"path/to/your/repo",
-                new AddUnderscoreImport());
+                new UnifyNullComparisonInTypeScript());
         }
     }
 }
