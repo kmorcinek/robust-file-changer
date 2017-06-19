@@ -15,6 +15,7 @@ namespace KMorcinek.RobustFileChanger.Implementations.FileChangers
         public override IEnumerable<string> Transform(string[] lines)
         {
             // Regexes are never easy, but you can always look at Unit Tests
+            // Regex was developed using http://regexstorm.net/tester
             var regex = new Regex(@"(\w+)\s*((!=)|(==))=*\s*((undefined)|(null))");
 
             return lines.Select(x => regex.Replace(x, "$1 $2 null"));
